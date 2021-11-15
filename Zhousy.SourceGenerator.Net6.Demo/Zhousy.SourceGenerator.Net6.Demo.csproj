@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Zhousy.SourceGenerator.Net5.Generator\Zhousy.SourceGenerator.Net5.Generator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+    <!--<ProjectReference Include="..\Zhousy.SourceGenerator.Net6.MyGenerator\Zhousy.SourceGenerator.Net6.Generator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />-->
+  </ItemGroup>
+
+</Project>
